@@ -1,0 +1,75 @@
+body {
+    background-color: #90ee90;
+    width: 50%;
+    margin: auto;
+}
+
+.oszlop1 {
+    text-align: center;
+}
+
+.jobbra {
+    text-align: right;
+}
+
+.sarga {
+    background-color: #FFFF00;
+}
+
+.kistabla {
+    width: 89%;
+}
+
+a:link {
+    color: #747474;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #747474;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c0c0c0;
+}
+
+a:active {
+    color: #111111;
+}
+
+.pulik {
+    display: flex;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.yellowHeader {
+    color: #FFFF00;
+}
+
+.nagybetus {
+    text-transform: uppercase;
+}
+
+.kozepre {
+    text-align: center;
+}
+
+.kep {
+    width: 50%;
+}
+
+hr {
+    border-width: 0px;
+    height: 2px;
+    background-color: #FFFF00;
+}
+
+.jobbkep {
+    width: 20%;
+    float: right;
+    padding-left: 15px;
+}
