@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+    color: #ffffff;
+    text-align: justify;
+    margin: 25px;
+}
+
+table{
+    box-shadow: 5px 5px 5px #1d1d4e;
+}
+
+.img{
+    box-shadow: 5px 5px 5px #1d1d4e;
+    border: 1px solid #1d1d4e;
+}
+
+.fejsor{
+    text-align: center;
+    background-color: #1d1d4e;
+    font-weight: bold;
+}
+
+.leftCol{
+    font-weight: bold;
+    text-align: right;
+    border: 1px dotted #1d1d4e;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.rightCol{
+    font-style: italic;
+    border: 1px dotted #1d1d4e;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+.clear{
+    clear:both
+}
+
+#balkep{
+    float: left;
+    height: 110px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#jobbkep{
+    float: right;
+    height: 250px;
+}
+
+hr{
+    clear: both;
+    background-color: #1d1d4e;
+    border: 0px;
+    height: 1px;
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 75px;
+}
+
+.forras{
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+a:link{
+    color: #5A268A;
+}
+
+a:active{
+    color: #ff0000;
+}
+
+a:visited{
+    color: #5A268A;
+}
