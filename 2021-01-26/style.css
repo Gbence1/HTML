@@ -1,0 +1,68 @@
+body{
+    background-color: #808080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    padding: 30px;
+    margin: auto;
+    width: 960px;
+    background-color: #add8e6;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+hr{
+    border: 0px;
+    height: 2px;
+    background-color: #00008B;
+    margin: 2px;
+}
+
+h2{
+    color: #00008B;
+    border-style: solid none dotted;
+    border-width: 2px;
+    margin-right: 40%;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-image: url(src/img/kukac.png);
+    margin-left: 80px;
+}
+
+.img-right{
+    width: 200px;
+    border: 8px solid #00008B;
+    border-bottom-style: outset;
+    border-right-style: outset;
+    float: right;
+    margin: 0px 0px 0px 20px
+}
+
+.img-left{
+    width: 200px;
+    border: 8px solid #00008B;
+    border-bottom-style: outset;
+    border-right-style: outset;
+    float: left;
+    margin: 0px 20px
+}
+
+.source{
+    font-style: italic;
+    margin: 0px 0px 0px 500px;
+}
+
+.link:hover{
+    color: #00008B;
+}
+
+.forras{
+    margin-top: 0px;
+}
