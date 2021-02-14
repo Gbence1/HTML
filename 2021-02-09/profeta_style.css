@@ -1,0 +1,318 @@
+body{
+    background-color: rgb(216, 209, 183);
+}
+
+body *{
+    margin: 2px;
+}
+
+@font-face {
+    font-family: Fridays;
+    src: url(src/font/Fridays.ttf);
+}
+
+.fridays{
+    font-family: Fridays;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: none;
+    width: 1385px;
+    height: 865px;
+    margin: auto;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 360px;
+}
+
+.teszlek {
+    float: left;
+}
+
+.neville {
+    float: right;
+}
+
+.story{
+    font-size: x-large;
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item3{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+.memorial{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.exclusive{
+    background-color: #000000;
+    color: #D8D1B7;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 2px #888888;
+}
+
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 140px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    background-color: #000000;
+    color: #D8D1B7;
+}
+
+.harry{
+    letter-spacing: 8.5px;
+}
+
+.potter{
+    letter-spacing: -1.5px;
+}
+
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.harry-img{
+    float: right;
+    height: 350px;
+}
+
+.defeat{
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.defeats{
+    letter-spacing: 12px;
+}
+
+.he-who{
+    letter-spacing: 16px;
+}
+
+.must-not{
+    letter-spacing: 3px;
+}
+
+.be-named{
+    letter-spacing: 4px;
+}
+
+.bigp{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+}
+
+.ujj{
+    float: left;
+}
+
+.f{
+    float: left;
+}
+
+@font-face{
+    font-family: League;
+    src: url(src/font/theleagueof-league-gothic-64c3ede/LeagueGothic-CondensedRegular.otf);
+}
+
+@font-face{
+    font-family: League Normal;
+    src: url(src/font/theleagueof-league-gothic-64c3ede/LeagueGothic-Regular.otf);
+}
+
+.page{
+    font-size: 70px;
+    font-family: League;
+}
+
+.item7{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    width: 400px;
+}
+
+.true-story{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2.6px;
+}
+
+.night{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.dark-lord{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2.3px;
+}
+
+.no-bullet{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.days li{
+    display: inline-block;
+    width: 25px;
+    font-size: x-small;
+    text-align: center;
+}
+
+.day-numbers li{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.item8{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.item9{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.bigp2{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 450px;
+}
+
+.severus{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.spacing{
+    letter-spacing: 5px;
+}
+
+.real{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.w{
+    float: left;
+}
+
+.item10{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.roxfort{
+    width: 250px;
+}
+
+.item11{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.conagall{
+    float: left;
+}
+
+.minerva{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hogwarts{
+    font-family: Fridays;
+    font-size: 35px;
+}
+
+.headmistress{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46.5px;
+    font-weight: 900;
+}
+
+.item12{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.full-story{
+    font-family: League Normal;
+    font-size:50px;
+    float: right;
+}
+
+.kisujj{
+    width: 100px;
+}
